@@ -1,0 +1,17 @@
+.portfolio{
+    width: 90%;
+    height: 200px;
+}
+.music {
+/*    left:5%;*/
+    bottom: 5%;
+    position: fixed;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+
+.research{
+/*    float: left;*/
+}

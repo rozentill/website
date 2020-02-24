@@ -1,0 +1,541 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Yuan Yao's Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/yy.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        
+        <style>
+        /* Prevents slides from flashing */
+        #slides {
+          display:none;
+        }
+            
+            #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+      </style>
+<!--     For Responsive Sliders   -->
+        <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/css/jquery.slides.min.js"></script>
+        
+        <script>
+            $(function(){
+              $("#slides").slidesjs({
+                width: 940,
+                height: 528,
+                play: {
+                  active: true,
+                  auto: true,
+                  interval: 4000,
+                  swap: true
+                }
+              });
+            });
+          </script>
+        
+<!--    for baidu statistics    -->
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?bc7ba203549abebb0ccccbbee8a9dbd0";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+        
+        
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+<!--						<span class="logo"><img src="images/me.jpg" alt="" /></span>-->
+						<h1>Yuan Yao's Home</h1>
+						<p>Welcome to my responsive website!<br />
+                            You can find something interesting here.
+<!--						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.-->
+                        </p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">About Me</a></li>
+							<li><a href="#first">Portfolio</a></li>
+							<li><a href="#second">Research</a></li>
+							<li><a href="#cta">Gallery</a></li>
+						</ul>
+					</nav>
+<!--
+                <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=33875750&auto=1&height=66" >
+                </iframe>
+                
+-->
+                
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>
+                                        I am a senior student of <strong>Department of Computer Science</strong> in <strong>Shanghai Jiao Tong University</strong>. I have also studied in <strong>University of California, Los Angeles</strong> and conducted research in <strong>University of Illinios at Urbana-Champaign</strong>. 
+                                        </p>
+                                        
+                                        <p>My research interests mainly cover <strong>Computer Graphics</strong>, <strong>Human Computer Interaction</strong> and <strong>Computer Vision</strong>. I have researched on non-photorealistic rendering(NPR) using deep learning, especially VGG-Net. Also I have done research in gestural interface for spatial skill training. Besides, I spent nearly one year doing research on big data.
+                                        
+                                        
+                                        <p><strong>Mathematics</strong> and <strong>Computer Science</strong> are two important subjects in my life and they affected me a lot. I started to learn Olympic Mathematics when I was 7 years old and was ranked 33rd among all the high school students in Shanghai in <strong>National Mathematical Olympiad in Senior</strong>. I also began to play video games at 3 years old due to my father, who is a programmer and a founder of a software company. I learned VB and C++ by myself before entering into university and got some valuable prizes. The courses related to them are also my favorite courses and mostly I got high score(90+ and ranked 10%) in these course.</p>
+                                        
+                                        
+                                        </p>
+                                        
+                                        <p>You can also check the <strong>CV</strong> below to see more about my academic background.</p>
+										<ul class="actions">
+											<li><a href="file/CV.pdf" class="button">Curriculum Vitae</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/me.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Portfolio</h2>
+                                    <p>Here are some selected projects and you can find some documentations, reports, codes and videos in <strong>Learn More</strong>.</p> 
+								</header>
+								<ul class="features">
+                                    <li>
+<!--										<span class="icon major style5 fa-diamond"></span>
+-->
+                                        <img src="images/construction.png" class="portfolio" />
+										<h3>Construction Mode(Gesture Ver.)</h3>
+										<p>This is my research project at UIUC. I designed and implemented a set of gestures for helping people to practice spatial reasoning skills. The hands data gained from <strong>Leap Motion</strong>, the developing tool is <strong>Unity3D</strong> and we use <strong>Blender</strong> to create 3D model.
+                                        </p>
+                                        <a href="https://github.com/rozentill/spatial-cs-gesture" class="button">Learn More</a>
+									</li>
+									<li>
+<!--										<span class="icon major style1 fa-code"></span>-->
+                                        <span class=" "><img src="images/re.png" class="portfolio" /></span>
+										<h3>Gene Chip</h3>
+										<p>
+                                            This project is to analyze a data set about the gene and I mainly focus on the material type of the gene chip. It contains three parts: <strong>PCA ( </strong>for <strong>dimension reduction )</strong>, <strong>BP neural network</strong> ( training model ) and <strong>L1, L2 regularization</strong>.
+                                        
+                                            </p>
+                                            <a href="https://github.com/rozentill/GeneChip" class="button">Learn More</a>
+
+<!--                                        </p>-->
+									</li>
+                                    <li>
+<!--                                        <span class="icon major style5 fa-diamond"></span>-->
+                                        <img src="images/life.png" class="portfolio" />
+										<h3>Life in College</h3>
+										<p>This is a fantastic 2D RPG game. Most of this game was designed and implemented by myself. I aimed to 
+                                        create a similar but more mystery college compared to my college. Students can try different college life and experience many fantastic events. The game was made by <strong>Unity3D</strong> and programmed by <strong>C#</strong>.
+                                        </p>
+                                        <a href="https://github.com/rozentill/Life-in-college" class="button">Learn More</a>
+                                    </li>
+									
+									
+								</ul>
+                               
+                                <ul class="features">
+                                    <li>
+<!--										<span class="icon major style5 fa-diamond"></span>
+-->
+                                        <img src="images/numRec.png" class="portfolio" />
+										<h3>Number Recognition</h3>
+                                        <p>A program which can recognize handwritten numer 0-9 and also can recognize most electronic numbers. The training model is <strong>back propagation neural network</strong> and the data set is <strong><a href="http://yann.lecun.com/exdb/mnist/">MINIST</a></strong>. I also wrote a automatically generating number image program by <strong>Python</strong>.
+                                        
+                                        </p>
+                                        <a href="https://github.com/rozentill/BPANN/tree/master/example/number" class="button">Learn More</a>
+									</li>
+                                    <li>
+                                        <span class="image"><img src="images/acev.png" class="portfolio" /></span>
+<!--										<span class="icon major style3 fa-copy"></span>-->
+										<h3>AceVision</h3>
+										<p>
+                                            AceVision is an academic vision and search engine system. You can get many intuitive visualizations of academic data. We used the <strong><a href="https://www.azure.cn/cognitive-services/zh-cn/academic-knowledge-api">API</a></strong> of the academic data set given by Microsoft to gain the data and then use <strong>D3.js</strong> and <strong>Echarts</strong> to visualiza the data.
+                                        </p>
+                                        <a href="https://github.com/rozentill/AceVision" class="button">Learn More</a>
+									</li>
+                                    <li>
+<!--                                        <span class="icon major style5 fa-diamond"></span>-->
+                                        <img src="images/gmaster.png" class="portfolio" />
+										<h3>Game Master</h3>
+										<p>A gesture interface to many popular games. People can use some gestures to play their favorite games like WarCraft, Racing and Super Mario. The project was programmed by <strong>C++</strong> in 24 hours.
+                                        </p>
+                                        <a href="https://coding.net/u/rozentill/p/Game-Master/git" class="button">Learn More</a>
+                                    </li>
+                                </ul>
+                                
+                                <ul class="features">
+                                    <li>
+<!--										<span class="icon major style5 fa-diamond"></span>
+-->
+                                        <img src="images/rocode.png" class="portfolio" />
+										<h3>RoCode</h3>
+                                        <p>A QR code android application which can create QR code and scan the QR code created. It is written by <strong>Java</strong> and <strong>Android Studio</strong>. Also I used a Java library called <strong>zxing</strong> to help to resolve QR codes.
+                                        </p>
+                                        <a href="https://github.com/rozentill/RoCode" class="button">Learn More</a>
+									</li>
+                                    <li>
+<!--                                        <span class="icon major style5 fa-diamond"></span>-->
+                                        <img src="images/llvm.jpg" class="portfolio" />
+										<h3>Small-C Compiler</h3>
+										<p>This compiler is a compiler of simpler C language. It was built based on <strong><a href="http://llvm.org/">LLVM</a></strong> and written by <strong>C++</strong>. To make it more fast, I used <strong>AVL tree</strong> as the data structure of the symbol table which earned a bonus for me.
+                                        </p>
+                                        <a href="https://github.com/rozentill/Small-C-Compiler" class="button">Learn More</a>
+                                    </li>
+                                    <li>
+<!--                                        <span class="icon major style5 fa-diamond"></span>-->
+                                        <img src="images/reversi.png" class="portfolio" />
+										<h3>Reversi</h3>
+										<p>A reversi game written by <strong>Python</strong> when I was a freshman. It has both one player and two players modes. When you choose one player mode, there will be an AI playing with you. The algorithm of the AI is <strong>Greedy Algorithm</strong>. It can beat most newcomers.
+                                        </p>
+                                        <a href="https://github.com/rozentill/Reversi" class="button">Learn More</a>
+                                    </li>
+                                </ul>
+<!--								<footer class="major">-->
+<!--									<ul class="actions">-->
+<!--										<li><a href="generic.html" class="button">Learn More</a></li>-->
+<!--									</ul>-->
+<!--								</footer>-->
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Research</h2>
+									<p>Doing research is funny and can keep me being innovative. Particularly, it is one of the best ways to make our world better.</p>
+								</header>
+<!--
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon fa-code-fork"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open-o"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-diamond"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul>
+-->
+                                <div class = "research">
+                                <h3><strong>Gestures for Spatial Reasoning</strong> ( Jun 2016 - Sept 2016 ) </h3>
+                                <p>Cascade Lab | University of Illinois at Urbana-Champaign | Research Assistant
+                                    <br>
+                                Advised by <strong>Wai-Tat Fu</strong>, Associate Professor, who is very kind and helpful, I wish to meet him again.</p>
+                                <p class="content">
+                                    <strong>Construction Mode</strong> is a game built by Helen and Nick who are both advised by Wai-Tat. It is used to help kids to improve their spatial reasoning skills. Some related works and reseaches indicate that such game is very useful for spatial reasoning. Therefore we wonder if using a set of gestures as the input of the game rather than mouse would be better to practice that skill.
+                                <br>
+                                    To be more specifically, the goal is to use gestures to control 7 DoF and do some other operations such as selection and changing view. The device to detect the data is Leap Motion and the project is programmed by C#. 
+                                    We are going to do experiments on kids and the results will generate a short paper submitted to ACM IUI 2017.
+                                    You can check a <a href="https://www.youtube.com/watch?v=Uku7eHwejqo">demo video</a> to see how it works.
+                                    </p>
+                                    
+<!--                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uku7eHwejqo" frameborder="0" allowfullscreen></iframe>-->
+                                </div>
+                                
+                                <div class = "research">
+                                <h3><strong>Large Scale Data Processing</strong> ( Feb 2016 - Jun 2016 ) </h3>
+                                <p>IIOT Lab | Shanghai Jiao Tong University | Research Assistant
+                                    <br>
+                                Advised by <strong>Xinbing Wang</strong>, Distinguished Professor, Assistant Dean in School of Electronics, Information and
+Electrical Engineering, Shanghai Jiao Tong University.</p>
+                                <p class="content">
+                                    Acemap is an academic search engine which aims to illustrate the map of the academy. Since the data of the system is very huge, I was responsible for using Hadoop to process of the data. Besides, we also focused on how to build our own search engine which means we paid much attention on <strong>information retrieval</strong>.
+                                    <br>
+                                    I built a Hadoop cluster on our servers, after I tried to construct a topic model and use Mahout to model the data. Besides, we used Hadoop as our basis for distributed crawler.
+                                    <br>
+                                    
+                                    During my work, I made a talk about Hadoop to all of our group members.
+                                    </p>
+                                    
+                                </div>
+                                
+                                <div class = "research">
+                                <h3><strong>Data Cleaning</strong> ( Spet 2015 - Feb 2016 ) </h3>
+                                <p>IIOT Lab | Shanghai Jiao Tong University | Research Assistant
+                                    <br>
+                                Advised by <strong>Xinbing Wang</strong>, Distinguished Professor, Assistant Dean in School of Electronics, Information and
+Electrical Engineering, Shanghai Jiao Tong University.</p>
+                                <p class="content">
+                                    Our system used MAG database as the source of data. But it seemed not clean and perfect enough. There are many noises and null value in the data set. Thus we needed to figure out some formats to refactor the data and design a processing stream to clean the data.
+                                    <br>
+                                    We used ER model to reconstruct a model of the data set. I was in charge of the learning for Kettle, an ETL tool. I made a speech about Kettle and won the appreciation from my advisor. After that, we used Kettle to clean the data.
+                                    </p>
+                                    
+                                </div>
+                                
+<!--
+								<p class="content"></p>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+-->
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Gallery</h2>
+									<p>
+                                        This gallery is mainly about my interests and activities. I am a person who always seeks novelty and happiness. Besides I am not afraid of any challenge, therefore I have many interests and often try to do best on them. My hobbies include <strong>guitar</strong>, <strong>cooking</strong>, <strong>climbing</strong>, <strong>basketball</strong> and so forth.
+                                    </p>
+								</header>
+                                
+                                <div id="slides">
+                                    <img src="assets/images/bop.jpg">
+                                    <img src="assets/images/cooking2.jpg">
+<!--                                    <img src="assets/images/hiking1">-->
+                                    <img src="assets/images/hiking2.jpg">
+                                    <img src="assets/images/hiking3.jpeg">
+                                    <img src="assets/images/hiking4.jpeg">
+<!--                                    <img src="assets/images/hiking5">-->
+                                    <img src="assets/images/sing.jpg">
+                                    <img src="assets/images/sing2.jpg">
+<!--                                    <img src="assets/images/sing3">-->
+                                  </div>
+<!--
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="generic.html" class="button special">Get Started</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+--> 
+                                
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+                            <section>
+							<h2>News</h2>
+							<dl class="alt">
+                                <dt>Oct.14th</dt>
+								<dd>Submitted my paper to <a href="http://iui.acm.org/2017/">IUI</a>.</dd>
+                                <dt>Sept.21st</dt>
+                                <dd>Joined <a href="http://msra.cn">MSRA</a>, Visual Computing Group as a research intern.</dd>
+								<dt>Sept.5th</dt>
+								<dd>Went back to China.</dd>
+                                <dt>Sept.2nd</dt>
+								<dd>Became an IEEE student member because of my performance in Beauty of Programming.</dd>
+								<dt>Jun.23rd</dt>
+								<dd>Began to work with Wai-Tat.</dd>
+<!--
+								<dt>Email</dt>
+								<dd><a href="#">rozentill@gmail.com</a></dd>
+-->
+							</dl>
+							
+						</section>
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>Room 204, Dorm D16, No.800, Dongchuan Road, Minhang District&bull; Shanghai, 200240 &bull; China</dd>
+								<dt>Phone</dt>
+								<dd>(+86) 13701661024</dd>
+								<dt>Email</dt>
+								<dd><a href="#">rozentill@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+<!--								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>-->
+								<li><a href="https://www.facebook.com/rozentill" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/in/yuan-yao-45aa93122?trk=nav_responsive_tab_profile_pic" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/rozentill" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.youtube.com/channel/UCUs2S5YtglXrZe7Pqd5DqMA" class="icon fa-youtube alt"><span class="label">YouTube</span></a></li>
+							</ul>
+						</section>
+                        
+						<p class="copyright">&copy; Yuan Yao. Design: <a href="https://html5up.net">HTML5 UP</a>.
+                        </p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
